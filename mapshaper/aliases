@@ -1,0 +1,1 @@
+alias mapshaper='docker run --rm -i -v "$(pwd)":/data mapshaper mapshaper "$@"'

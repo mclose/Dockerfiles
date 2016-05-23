@@ -1,0 +1,2 @@
+alias ogr2ogr='docker run --rm -i -v "$(pwd)":/data gdal ogr2ogr "$@"'
+alias ogrinfo='docker run --rm -i -v "$(pwd)":/data gdal ogrinfo "$@"'
